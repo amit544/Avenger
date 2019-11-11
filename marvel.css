@@ -1,0 +1,598 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'arial','latao';
+}
+
+.main {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 10, 0.8)), to(rgba(0, 10, 10, 0.7))), url("marvelimg/HERO.png");
+  background-image: linear-gradient(rgba(0, 0, 10, 0.8), rgba(0, 10, 10, 0.7)), url("marvelimg/HERO.png");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+ul {
+  list-style: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+.main ul li
+ {
+  display: inline-block;
+  margin-top: 4%;
+  font-size: 70%;
+  word-spacing: .5%;
+  margin-left: 4.5px;
+ }
+ .left 
+  {
+  margin-left: 125px;
+  font-size: 130%;
+  position:absolute;
+  padding-top: 10px;
+ }
+.right
+ {
+  margin-right: 125px;
+  float: right;
+  font-size: 130%;
+  position:relative;
+  padding-top: 10px;
+ }.movies 
+  {
+  margin-left: 38%;
+  }
+
+ .btn {
+  height: 30px;
+  width: 85px;
+  padding: 250px 550px;
+  margin-top: -280px;
+}
+
+.heading {
+  text-align: center;
+  list-style: none;
+  margin-top: 18%;
+}
+
+.heading .heading1 {
+  color: white;
+}
+
+.heading ,.heading2 {
+  text-transform: uppercase;
+  color: red;
+  margin-top: -2.3%;
+  font-size: 125%;
+}
+
+.heading ,.heading3 {
+  text-transform: capitalize;
+  color: white;
+  margin-top: 3px;
+  margin-bottom: 8px;
+}
+.games{
+  margin-top:0px;
+}
+.main-dot{
+      margin-top: 35px;
+}
+.dot1, .dot2, .dot4 {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  margin-top: 0px;
+  display: inline-block;
+  word-spacing: 5%;
+  background-color: #bbb;
+}
+
+.dot3 {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  margin-top: 0px;
+  display: inline-block;
+  word-spacing: 5%;
+  background-color: #bbb;
+  background-color: red;
+}
+
+.movies1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: red;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border-bottom: 2.5px solid red;
+  width: 10.5%;
+  margin-left: 50%;
+  text-align: center;
+}
+h2{
+  margin-bottom: 5px;
+}
+
+.movies1 h2 {
+  border-bottom: 3px 5px solid red;
+}
+
+.row {
+  max-width: 114rem;
+  margin-left: 16%;
+}
+
+.col1,.col2,.col3,.col4{
+  width:20%;
+  float:left;
+}
+.bck{
+  background-image: linear-gradient(rgba(0, 0, 0, 1),rgba(0,0,0,1));
+  height: 10vh;
+  text-align: center;
+  margin-right: 15%;
+  margin-bottom: -4%;
+  margin-left: 16%;
+}
+.movie-logo1,.movie-logo2,.movie-logo3,.movie-logo4 {
+  height:200px;
+  margin-right: 0px;
+  width: 100%;
+}
+.card1,.card2,.card3,.card4{
+  margin-left: 14%;
+  margin-top: 5%;
+  box-shadow: 5px 5px 5px 5px;
+  margin-left:10%;
+}
+.movie-name{
+  text-transform: uppercase;
+  color: red;
+  font-size: 70%;
+  text-align: center;
+  margin-top: 12%;
+  margin-bottom: 17%;
+}
+.button1,.button2{
+  color: white;
+  text-transform: uppercase;
+  background-color: black;
+  font-size: 60%;
+  border-radius: 20% 0 20% 0;
+  margin-bottom: 15px;
+}
+.button1{
+  padding: 9px 12px;
+  margin-left:70px;
+}
+.button2{
+  padding: 9px 15px;
+  margin-left:80px;
+}
+.loadmore{
+  text-transform: uppercase;
+  color: white;
+  margin-top: 33%;
+  text-align: center;
+  background-color: red;
+  padding: 15px 10px;
+  border: 2px solid red;
+  width: 10%;
+  margin-left: 48%;
+ border-radius: 20% 0 20% 0;
+ margin-bottom: 100px;
+}
+/*# sourceMappingURL=marvel.css.map */
+footer{
+  width: 100%;
+  height: 38vh;
+  background-color: #201f22;
+  margin-top: 120px;
+  font-size: 150%;
+}
+.info{
+  line-height: 35px;
+  letter-spacing: 2px;
+  color: white;
+}
+ul li{
+  list-style: none;
+}
+
+.footer-col{
+  padding-top: 13px;
+  text-transform: uppercase;
+  list-style: none;
+}
+.info a,.more,.social{
+  color: #ECEFF1;
+  text-decoration: none;
+  font-family: Lato;
+  font-weight: 100;
+  padding-top: 13px;
+}
+.info{
+  margin-left: 180px;
+  margin-top: 30px;
+  font-size: 40%;
+}
+.more{
+  margin-left: 40%;
+  margin-top: -160px;
+}
+.social{
+  margin-left: 60%;
+margin-top: -180px;}
+.merchandise1{
+  margin-left:-8%;
+  font-size: 200%;
+  font-family: 'lato';
+}
+.learnmore{
+  padding: 10px 20px;
+  background-color:red;
+  color: #ECEFF1;
+   text-align: center;
+  margin-left: -3%;
+  clip-path: polygon(20% 0%,100% 0%,100% 75%, 90% 100%, 0% 100%,0% 25%);
+}
+.copy{
+  margin-top: 15px;
+}
+/*----------------for mobile--------------------=------------------------------------------------------------------------------=/
+/------------------------------------------------------------------------------------------------------------------------------*/
+@media only screen and (max-width:470px)
+{
+  .btn {
+    padding: 25px 150px;
+    
+  }
+  .left,.right{
+    display: none;
+  }
+  
+  #amit{
+    color:white;
+    margin-left: 30px;
+    margin-top: 35px;
+  }
+  .heading {
+    text-align: center;
+    list-style: none;
+    position: relative;
+
+  }
+  .heading1{
+    margin-top: 280px;
+  }
+  .heading2{
+    font-size: 60%;
+  }
+  .games{
+    margin-top: -100px;
+    position: absolute;
+    
+  }
+  .main-dot{
+        margin-top: 0px;
+  }
+  .dot1, .dot2, .dot4 {
+    height: 6px;
+    width: 6px;
+  }
+  
+  .dot3 {
+    height: 6px;
+    width: 6px;
+  }
+  .movies1 {
+    width: 30.5%;
+    margin-left: 35%;
+  }
+  .bck{
+    height: 0vh;
+    margin-bottom: 8%;
+  }
+  .row{
+    max-width: width 480px;
+  }
+  .col1,.col2
+  {
+    margin-left: 60px;
+    margin-bottom: 30px;
+    margin-right: 50px;
+  }
+  .col3,.col4
+  {
+   margin-right:100px;
+   margin-left: 60px;
+   margin-bottom: 5px;
+  }
+  .col3
+  {
+    margin-top: -5PX;
+  }
+  .col4{
+    margin-top: 15px;
+  }
+  .movie-logo1,.movie-logo2,.movie-logo3,.movie-logo4 {
+    height:170px;
+    width: 150px;
+  }
+  .card1,.card2{
+    margin-top: 5%;
+    box-shadow: 2px 2px 2px 2px;
+    width: 150px;
+  }
+  .movie-name{
+    font-size: 50%;
+    margin-top: 12%;
+    margin-bottom: 15%;
+  }
+  .button1,.button2{
+     margin-left:50px;
+    font-size: 50%;
+    border-radius: 20% 0 20% 0;
+    margin-bottom: 15px;
+  }
+  .button1{
+    padding: 9px 14px;
+    margin-left: 45px;
+  }
+  .button2{
+    padding: 9px 25px;
+  }
+  .card3,.card4{
+    margin-top: 5%;
+    box-shadow: 2px 2px 2px 2px;
+    width: 150px;
+  }
+  .loadmore{
+    margin-top:1240px;
+    text-align: center;
+    padding: 10px 20px;
+    width: 30%;
+    margin-left: 35%;
+   border-radius: 15% 0 15% 0;
+   font-size: 70%;
+  }
+  .info{
+    line-height: 20px;
+    letter-spacing:2px;
+    margin-left: 30px;
+    margin-top: 150px;
+    font-size: 10px;
+  }
+  footer{
+      width: 100%; 
+      height: 250px;
+    margin-top: 70px;
+    font-size: 50%;
+    padding-bottom:90px;
+  }
+  .about{
+    margin-bottom: 25%;
+  }
+  .social{
+    margin-top: 50px;
+  }
+  .more{
+    margin-top:-230px;
+    font-size: 90%;
+    margin-left: 140px;
+  }
+  .copy{
+    margin-top: 380px;
+    position: absolute;
+  }
+  .merchandise1{
+    font-size: 80%;
+    margin-left: -30PX;
+  }
+  .learnmore{
+    padding:2px 10px;
+    width: 20%;
+    clip-path: polygon(10% 0%,100% 0%,100% 75%, 90% 100%, 0% 100%,0% 25%);
+    position: absolute;
+    margin-top: 8px;
+    margin-left: -20PX;
+  }
+}
+/*----------------for ipad--------------------------------------------------------------------------------------------------==/
+/------------------------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (max-width:768px) and (min-width:471px)
+{
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  .main
+  {
+    width: auto;
+    height:80vh;
+    background-repeat: no-repeat;
+    background-position: center;
+  } 
+.btn 
+ {
+  height: 80px;
+  width: 185px;
+  padding: -25px 20px; 
+  margin-left: -230px;
+ }
+.left,.right
+ {
+  display: none;
+ }
+#amit
+ {
+  margin-left: 25px;
+  margin-top: 35px;
+  color: #ECEFF1;
+ }
+ .heading,.heading1,.heading3
+ {
+  color: white;
+  margin-left: -10px;
+ }
+.heading1
+ {
+  margin-top: 150px;
+ }
+
+.heading2 
+ {
+  font-size: 90%;
+  margin-left: -10px;
+  font-family: 'arial','lato';
+ }
+.games
+ {
+  margin-top: 10px;
+  
+ }
+.main-dot 
+ {
+  margin-left: -10px;
+ }
+.dot1, .dot2, .dot4  
+ {
+  height: 8px;
+  width: 8px;
+ }
+.dot3 
+ {
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+ }
+.movies1
+ {
+  width: 20.5%;
+  margin-left: 40%; }
+.bck
+ {
+  height: 4vh;
+  margin-bottom: -4%;
+  margin-left: 15%;
+ }
+.row
+ {
+  max-width:768px;
+  margin-left: 170px;
+ }
+.col1,.col2 
+ {
+  width: 80px;
+  display: flex;
+  margin-right: 150px;
+ }
+.col3
+ {
+    margin-top:30px;
+    margin-right:150px;
+    margin-left: 80px;
+ }
+ .col4{
+   margin-top: 30px;
+   margin-left: -40px;
+ }
+.movie-logo1,.movie-logo2,.movie-logo3,.movie-logo4 
+ {
+  height:170px;
+  width: auto; 
+ }
+.card1,.card2
+ {
+  margin-top: 15%;
+  box-shadow: 3px 3px 3px 3px;
+  width: auto;
+ }
+.movie-name
+ {
+  font-size: 50%;
+  margin-top: 12%;
+  margin-bottom: 15%;
+ }
+.button1,.button2
+ {
+   margin-left:50px;
+  color: white;
+  font-size: 50%;
+  border-radius: 20% 0 20% 0;
+  margin-bottom: 15px;
+}
+.button1
+ {
+  padding: 9px 14px;
+  margin-left: 45px;
+ }
+.button2
+ {
+  padding: 9px 25px;
+ }
+.card3,.card4
+ {
+  margin-top: 5%;
+  box-shadow: 3px 3px 3px 3px;
+  width:auto;
+  margin-left: -70px; 
+ }
+.loadmore
+ {
+  margin-top:650px;
+  padding: 10px 40px;
+  width: 10%;
+  margin-left: 40%;
+ border-radius: 15% 0 15% 0;
+ margin-bottom: 90px;
+ font-size: 70%;
+ }
+.info
+ {
+  line-height: 50px;
+  letter-spacing:2px;
+  color: white;
+  margin-left: 60px;
+  margin-top: 290px;
+  font-size: 20px;
+ }
+footer
+ {
+    width: 100%; 
+    height: 950px;
+  margin-top: 100px;
+  font-size: 30%;
+ }
+.about
+ {
+  margin-bottom: 25%;
+ }
+.social{
+  margin-top: 75px;
+}
+.more{
+  margin-top:-480px;
+  font-size: 90%;
+  margin-left: 38%;
+}
+.copy{
+  margin-top: 285px;
+  position: absolute;
+}
+.merchandise1{
+  font-size: 80%;
+}
+.learnmore{
+  padding:1px 10px;
+  width: 20%;
+  clip-path: polygon(10% 0%,100% 0%,100% 75%, 90% 100%, 0% 100%,0% 25%);
+  position: absolute;
+  margin-top: 10px;
+}
+}
